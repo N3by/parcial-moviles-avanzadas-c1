@@ -12,13 +12,9 @@ public class Dbhelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NOMBRE = "amigos.db";
     public static final String TABLE_AMIGOS = "amigos";
-
     private static final String COLUMN_ID = "_id";
-
     private static final String COLUMN_NAME =  "nombre";
-
     private static final String COLUMN_AGE =  "edad";
-
     private static final String COLUMN_CIUDAD =  "ciudad";
     private final Context context;
 
